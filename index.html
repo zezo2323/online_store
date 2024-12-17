@@ -8,7 +8,7 @@
     <!-- favicon -->
     <link
       rel="shortcut icon"
-      href="/img/img for H.P/2.ico"
+      href="/img/head/2.ico"
       type="image/x-icon"
     />
     <!-- icons -->
@@ -16,18 +16,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
     />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
+
   <body>
     <!-- navegation bar -->
     <nav>
       <div class="logo">
-        <a href="index.html"><img src="img/img for H.P/5.png" alt="logo" /></a>
+        <a href="index.html"><img src="img/head/5.png" alt="logo" /></a>
       </div>
       <ul class="nav-list">
         <li><a href="#">Home</a></li>
         <li><a href="#">Categories</a></li>
         <li><a href="#">Products</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="About">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <div class="icons">
@@ -47,7 +53,7 @@
       </div>
     </nav>
     <!-- header -->
-    <header class="header">
+    <header>
       <div class="hero_info">
         <div class="contain">
           <h2>COLLECTION</h2>
@@ -64,14 +70,14 @@
             <button class="shop_now_btn"><a href="#">SHOP NOW</a></button>
           </div>
         </div>
-      </div>
-      <div class="hero-img">
-        <img src="/img/img for H.P/6.png" alt="" />
-      </div>
-      <div class="social_media">
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <div class="social_media">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="hero-img">
+          <img src="img/head/6.png" alt="" />
+        </div>
       </div>
     </header>
     <!-- Categories -->
@@ -79,7 +85,7 @@
       <div class="collection">
         <div class="collection-big-card all-collection">
           <a href="#" target="_blank">
-            <img src="/img/img for H.P/men's.png" alt="" />
+            <img src="img/head/men's.png" alt="" />
           </a>
           <div class="collection-text">
             <p>SECTION</p>
@@ -88,7 +94,7 @@
         </div>
         <div class="collection-big-card all-collection">
           <a href="#" target="_blank">
-            <img src="/img/img for H.P/children's.png" alt="" />
+            <img src="img/head/children's.png" alt="" />
           </a>
           <div class="collection-text">
             <p>SECTION</p>
@@ -97,7 +103,7 @@
         </div>
         <div class="collection-big-card all-collection">
           <a href="#" target="_blank">
-            <img src="/img/img for H.P/women's.png" alt="" />
+            <img src="img/head/women's.png" alt="" />
           </a>
           <div class="collection-text">
             <p>SECTION</p>
@@ -112,9 +118,9 @@
       <div class="product-wrapper">
         <div class="product-container">
           <!-- product 1 -->
-           <div class="product-box">
+          <div class="product-box">
             <a href="#">
-              <img src="#" alt="">
+              <img src="#" alt="" />
               <p>hody</p>
               <span><strike>$50.00</strike></span>
               <span>$40</span>
@@ -134,11 +140,11 @@
                 </div>
               </div>
             </a>
-           </div>
+          </div>
           <!-- product 2 -->
-           <div class="product-box">
+          <div class="product-box">
             <a href="#">
-              <img src="#" alt="">
+              <img src="#" alt="" />
               <p>hody</p>
               <span><strike>$50.00</strike></span>
               <span>$40</span>
@@ -158,11 +164,11 @@
                 </div>
               </div>
             </a>
-           </div>
+          </div>
           <!-- product 3 -->
-           <div class="product-box">
+          <div class="product-box">
             <a href="#">
-              <img src="#" alt="">
+              <img src="#" alt="" />
               <p>hody</p>
               <span><strike>$50.00</strike></span>
               <span>$40</span>
@@ -182,11 +188,11 @@
                 </div>
               </div>
             </a>
-           </div>
+          </div>
           <!-- product 4 -->
-           <div class="product-box">
+          <div class="product-box">
             <a href="#">
-              <img src="#" alt="">
+              <img src="#" alt="" />
               <p>hody</p>
               <span><strike>$50.00</strike></span>
               <span>$40</span>
@@ -206,11 +212,11 @@
                 </div>
               </div>
             </a>
-           </div>
+          </div>
           <!-- product 5 -->
-           <div class="product-box">
+          <div class="product-box">
             <a href="#">
-              <img src="#" alt="">
+              <img src="#" alt="" />
               <p>hody</p>
               <span><strike>$50.00</strike></span>
               <span>$40</span>
@@ -230,11 +236,11 @@
                 </div>
               </div>
             </a>
-           </div>
+          </div>
           <!-- product 6 -->
-           <div class="product-box">
+          <div class="product-box">
             <a href="#">
-              <img src="#" alt="">
+              <img src="#" alt="" />
               <p>hody</p>
               <span><strike>$50.00</strike></span>
               <span>$40</span>
@@ -254,12 +260,78 @@
                 </div>
               </div>
             </a>
-           </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- About -->
-    <article></article>
+    <h1>about us</h1>
+    <article>
+
+      <!-- Swiper -->
+      <div
+        style="
+          --swiper-navigation-color: #ffffff;
+          --swiper-pagination-color: #fff;
+        "
+        class="swiper mySwiper"
+      >
+        <div
+          class="parallax-bg"
+          style="background-image: url(img/head/7.jpg)"
+          data-swiper-parallax="-23%"
+        ></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="title" data-swiper-parallax="-300">Slide 1</div>
+            <div class="subtitle" data-swiper-parallax="-200">About Us</div>
+            <div class="text" data-swiper-parallax="-100">
+              <p>
+                Welcome to [Your Website Name], your first destination for the
+                latest fashion trends for the whole family. We aim to provide a
+                unique and convenient online shopping experience, where you can
+                find the latest men's, women's, and children's fashion with
+                modern designs and exceptional quality. We are here to make
+                elegance accessible and easy for everyone.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="title" data-swiper-parallax="-300">Slide 2</div>
+            <div class="subtitle" data-swiper-parallax="-200">Our Vision</div>
+            <div class="text" data-swiper-parallax="-100">
+              <p>
+                "At [Your Website Name], we believe that elegance is not just
+                about clothes, it's a way of life. Our vision is to offer modern
+                fashion for all tastes at competitive prices and high quality.
+                We are committed to constantly updating our collections to align
+                with the latest global fashion trends. Our goal is to make every
+                visit to our site a memorable and enjoyable experience.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="title" data-swiper-parallax="-300">Slide 3</div>
+            <div class="subtitle" data-swiper-parallax="-200">Our Values</div>
+            <div class="text" data-swiper-parallax="-100">
+              <p>
+                Quality First: We guarantee that all our products are made from
+                the finest materials to provide maximum comfort and durability.
+                Diversity and Innovation: We offer a wide variety of fashion
+                styles that cater to all tastes and age groups. Convenience and
+                Simplicity: Fast and easy shopping with secure payment options
+                and quick delivery to your door. Customer Trust: We value every
+                customer and always strive to enhance their experience with us
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </article>
+
     <!-- footer -->
     <footer>
       <div class="footer-top">
@@ -397,5 +469,9 @@
         </div>
       </div>
     </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- java script file  -->
+    <script src="JS/file.js"></script>
   </body>
 </html>
