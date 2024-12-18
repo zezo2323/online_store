@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-body{
+.body{
 
     background-color: #dddf93;
     background-repeat: no-repeat;
@@ -41,7 +41,6 @@ body{
   padding-left: 40px;
 } 
 
-/* تنسيق الروابط */
 .nav-link {
   color: #525252;
   font-weight: 600;
@@ -59,7 +58,7 @@ body{
   align-items: center;
 }
 
-/* تنسيق الأيقونات */
+
 .nav-icon {
   position: relative;
   margin: 0 5px;
@@ -71,7 +70,7 @@ body{
   cursor: pointer;
 }
 
-/* تنسيق الروابط داخل .login_signup */
+
 .login_signup .nav-link {
   color: #000;
   padding: 10px 20px;
@@ -82,7 +81,6 @@ body{
   text-decoration: none;
 }
 
-/* تأثير hover على روابط .login_signup */
 .login_signup .nav-link:hover {
   background-color: #fff;
   color: #000;
@@ -101,14 +99,13 @@ body{
 }
 
 .footer {
-  /* background-color: #f1f1f1;  */
-  color: #333; /* تحديد لون النص في الفوتر */
-  padding: 40px 0; /* مساحة الفوتر من الأعلى والأسفل */
+  color: #333; 
+  padding: 40px 0;
 }
 
 .footer-brand {
   margin-bottom: 20px;
-  text-align: center; /* محاذاة الشعار في المنتصف */
+  text-align: center; 
 }
 
 .footer-brand h3 {
@@ -119,7 +116,7 @@ body{
 .social-icons {
   list-style: none;
   padding: 0;
-  text-align: center; /* محاذاة الأيقونات في المنتصف */
+  text-align: center; 
 }
 
 .social-icons li {
@@ -134,7 +131,7 @@ body{
 }
 
 .social-icons li a:hover {
-  color: #929510; /* تغيير اللون عند المرور بالفأرة */
+  color: #929510; 
 }
 
 /* تنسيق الأعمدة في الفوتر */
@@ -174,8 +171,8 @@ body{
 .footer-column ul li a:hover {
   color: #eef212;
 }
+ 
 
-/* دمج CONTACT و ADDITIONAL INFO في نفس العمود */
 .footer-column.additional-info {
   flex: 1;
   margin-right: 0;
@@ -188,8 +185,8 @@ body{
 
 /* Footer bottom section */
 .footer-bottom {
-  background-color: #686b0b; /* تغيير الخلفية للأسفل */
-  color: #fff; /* تغيير لون النص إلى الأبيض */
+  background-color: #686b0b; 
+  color: #fff; 
   padding: 20px 0;
   text-align: center;
 }
@@ -214,7 +211,6 @@ body{
   color: #929510;
 }
 
-/* استجابة للأجهزة المحمولة */
 @media (max-width: 1024px) {
   .footer-columns {
     flex-direction: column;
