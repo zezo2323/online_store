@@ -88,10 +88,109 @@
 } 
 
 
+/* header */
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+  background-image:url();
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size:cover;
+  background-color: #ffffff;
+  width: 100%;
+  height: 80vh;
+  border-radius: 5px;
+}
+.hero_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+
+}
+.hero_info .contain h2{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Arial, sans-serif;
+  margin: 15px 0;
+  color: #525252;
+
+}
+.hero_info .contain h1{
+  font-size: 55px;
+  font-weight: 400;
+  font-family: Arial, sans-serif;
+  margin: 15px 0;
+  color: #525252;
+
+}
+.hero_info .contain h1 span{
+  font-size: 55px;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  color: #929510;
+}
+.hero_info .contain p{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+  width: 60%;
+  margin:10px 0;
+  color: #525252;
+}
+.shop-now-btn .shop_now_btn{
+margin:10px 0;
+height: 35px;
+width: 200px;
+border: none;
+background-color: transparent;
+position: relative;
+cursor: pointer;
+font-size: 18px;
+font-weight: 600;
+
+
+}
+.shop-now-btn .shop_now_btn a{
+  color: #000;
+
+}
+.shop-now-btn button:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #929510;
+  transition: .3s;
+}
+.shop-now-btn button:hover:after{
+  width:100%;
+}
+.hero-img {
+  position: absolute;
+  top: 500px; /* توسيط الصورة عموديًا */
+  right: 120px; /* وضع الصورة في الجهة اليمنى */
+  transform: translateY(-50%); /* لجعل الصورة في المنتصف العمودي */
+  width: 30%; /* تحديد العرض بناءً على المساحة المتاحة */
+  display: flex;
+  justify-content: center; /* لتوسيط الصورة داخل العنصر */
+  align-items: center;
+}
+
+.hero-img img {
+  width: 100%; /* جعل الصورة تأخذ العرض الكامل للحاوية */
+  height: auto; /* الحفاظ على النسب الأصلية للصورة */
+}
 
 
 
- 
+
+/* footer  */
 .container {
   max-width: 1200px;
   margin: 0 auto;
