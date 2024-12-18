@@ -1,52 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css">
-    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
-    <title>e| Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOGIN</title>
+  <link rel="stylesheet" href="/css/login.css">
 </head>
-<body>
-    <nav>
 
-        <ul>
-
-            <li><a href="two.html">profile</a></li>
-            <li><a href="two.html">about</a></li>
-            <li><a href="projectone.html">home</a></li>
-        </ul>
-
-
-    </nav>
-    <div class="box">
-        <div class="container">
-            <div class="top-header">
-                <span>Have an account?</span>
-                <header>Login</header>
-            </div>
-            <div class="input-field">
-                <input type="text" class="input" placeholder="Username" required>
-                <!-- <i class="bx bx-user"></i> -->
-            </div>
-            <div class="input-field">
-                <input type="password" class="input" placeholder="Password" required>
-                <!-- <i class="bx bx-lock-alt"></i> -->
-            </div>
-            <div class="input-field">
-                <input type="submit" class="submit" value="Login">
-            </div>
-            <div class="bottom">
-                <div class="left">
-                    <input type="checkbox"  id="check">
-                    <label for="check"> Remember Me</label>
-                </div>
-                <div class="right">
-                    <label><a href="#">Forgot password?</a></label>
-                </div>
-            </div>
-        </div>
+<body class="body">
+  <!-- navegation bar -->
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="img/head/5.png" alt="logo" /></a>
     </div>
+    <ul class="nav-list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="icons-sec">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <a href="#"><i class="fa-solid fa-user"></i></a>
+      <i class="fa-solid fa-heart"></i>
+      <div class="cart menu">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+      <div class="login_signup">
+        <a href="/html/sign_in.html">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+        <a href="#">Sign up <i class="fa-solid fa-user-plus"></i></a>
+      </div>
+    </div>
+    <div class="bars">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+  <!-- signin page ag -->
+  <div class="wrapper">
+    <span class="clossse"><ion-icon name="close-circle-outline"></ion-icon>
+    </span>
+    <div class="form-box login">
+      <h2>Login</h2>
+      <form action="">
+        <div class="input-box">
+          <span class="iconemail"><ion-icon name="mail-outline"></ion-icon></span>
+          <input type="email" required>
+          <label class="em">Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+          <input type="password" required>
+          <label class="pas">password</label>
+        </div>
+        <div class="remember-forgot">
+          <labal><input type="checkbox">Remember me</labal>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="login-register">
+          <P>Don't have an account ?<a href="#" class="register-link">Register</a></P>
+        </div>
+      </form>
+
+    </div>
+
+       
+  </div>
 </body>
+
 </html>
