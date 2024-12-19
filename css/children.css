@@ -19,10 +19,10 @@ body{
     backdrop-filter: blur(20px);
     /* background-color:#fff ; */
 }
-<<<<<<< HEAD
 
 
-=======
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -80,4 +80,3 @@ ul li a:hover{
 
 
 }
->>>>>>> ec0eae66366fde4669f2152806410a6328376cda
