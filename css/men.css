@@ -7,12 +7,262 @@
 }
 
 body{
-    /* background-image: url(/img/head/background.jpg); */
-    background-color: #929510;
+
+    background-color: #dddf93;
     background-repeat: no-repeat;
     height: 78vh;
     background-size: cover;
     background-attachment: fixed;
     backdrop-filter: blur(20px);
-    /* background-color:#fff ; */
 }
+/* navigation */
+ nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  height: 80px;
+  z-index: 999;
+  border-radius: 10px;
+}
+
+.logo img {
+  width: 120px;
+  height: 90px;
+}
+
+.nav-list .nav-li{
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  padding-left: 40px;
+} 
+
+.nav-link {
+  color: #525252;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #929510;
+}
+
+.icons-sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.nav-icon {
+  position: relative;
+  margin: 0 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cart menu {
+  cursor: pointer;
+}
+
+
+.login_signup .nav-link {
+  color: #000;
+  padding: 10px 20px;
+  background-color: #929510;
+  margin-left: 10px;
+  border: 2px solid #070707;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.login_signup .nav-link:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #929510;
+} 
+
+
+
+
+
+ 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer {
+  color: #333; 
+  padding: 40px 0;
+}
+
+.footer-brand {
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.footer-brand h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  text-align: center; 
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li a {
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-icons li a:hover {
+  color: #929510; 
+}
+
+/* تنسيق الأعمدة في الفوتر */
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+  font: size 10px;;
+}
+
+.footer-column ul li a:hover {
+  color: #eef212;
+}
+ 
+
+.footer-column.additional-info {
+  flex: 1;
+  margin-right: 0;
+}
+
+.footer-column p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Footer bottom section */
+.footer-bottom {
+  background-color: #686b0b; 
+  color: #fff; 
+  padding: 20px 0;
+  text-align: center;
+}
+
+.service-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.service-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.service-icons li a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.service-icons li a:hover {
+  color: #929510;
+}
+
+@media (max-width: 1024px) {
+  .footer-columns {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+
+  .service-icons li {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-brand h3 {
+    font-size: 20px;
+  }
+
+  .social-icons li {
+    margin-right: 15px;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+
+  .service-icons li {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-brand h3 {
+    font-size: 18px;
+  }
+
+  .social-icons li {
+    margin-right: 10px;
+  }
+
+  .footer-column {
+    margin-bottom: 15px;
+  }
+
+  .footer-bottom p {
+    font-size: 14px;
+  }
+
+  .service-icons li {
+    margin-right: 8px;
+  }
+}
+

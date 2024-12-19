@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 *{
     font-family: "Playfair Display", serif;
@@ -17,9 +18,10 @@ body{
     /* background-color:#fff ; */
 }
 
+
 .product-wrapper{
 
-width: 100%;
+width: 0%;
 background-color: #fff;
 
 
@@ -36,11 +38,11 @@ background-color: #afff;
 } 
 
 .product-box{
-width: 350px;
-height: 370px;
-background-color: #afff;
+width: 300px;
+height: 300px;
+background-color: white;
 position: relative;
-margin: 10px 0;
+margin: 0 0;
 transition: .3s;
 cursor: pointer;
 overflow: hidden;
@@ -49,8 +51,8 @@ overflow: hidden;
 .product-box img{
 
 
-width: 300px;
-height: 300px;
+width: 100px;
+height: 100px;
 
 }
 
@@ -97,10 +99,10 @@ align-items: center !important;
 }
 
 .cart-box1{
-width: 50px;
-height: 50px;
+width: 0px;
+height: 0px;
 background-color: #292929;
-color: #afff;
+color: white;
 border-radius: 10px;
 display: flex;
 justify-content: space-evenly;
@@ -139,6 +141,7 @@ font-weight: 13px;
 
 
 
+ 
 
 
 
@@ -147,8 +150,7 @@ font-weight: 13px;
 
 
 
-
-/* .product-container{
+ /* .product-container{
 
     width: 100%;
     display: flex;
@@ -158,11 +160,11 @@ font-weight: 13px;
     padding: 0 4%;
 
 
-} */
+} 
 
 
 
-/* .product-box{
+.product-box{
     height: 415px;
     overflow: hidden;
     margin: 30px 0;
@@ -231,6 +233,7 @@ color: #000;
 font-size: 20px;
 font-weight: 500;
 
-} */
+} 
 
 
+ */
