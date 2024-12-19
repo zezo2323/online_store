@@ -292,8 +292,8 @@ font-weight: 600;
   margin-right: 0;
 }
 
-.footer-column p:hover {
-  color: #929510;
+.footer-column p {
+  color: #fff;
   font-size: 15px;
   line-height: 1.5;
 }
