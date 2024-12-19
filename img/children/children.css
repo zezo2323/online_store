@@ -1,4 +1,4 @@
-
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 *{
     font-family: "Playfair Display", serif;
@@ -8,15 +8,16 @@
 }
 
 body{
-    /* background-image: url(/img/head/background.jpg); */
-    background-color: #cccd94;
+    background-image: url(/img/head/background.jpg); 
+     background-color: #cccd94;
     background-repeat: no-repeat;
     height: 78vh;
     background-size: cover;
     background-attachment: fixed;
     backdrop-filter: blur(20px);
-    /* background-color:#fff ; */
-}
+    background-color:#fff ; 
+ 
+
 
 
 .product-wrapper{
@@ -40,6 +41,11 @@ background-color: #fff;
 .product-box{
 width: 300px;
 height: 400px;
+
+.product-box{
+width: 550px;
+height: 470px;
+
 background-color: white;
 position: relative;
 margin: 10px 0;
@@ -52,17 +58,28 @@ overflow: hidden;
 .product-box img{
 
 
+<<<<<<< HEAD
 width: 325px;
 height: 325px;
 
 
 
 }
+=======
+width: 350px;
+height: 300px;
+padding: 10px ;
+>>>>>>> b5d3b632292faaa96b5c07c0c4508a7099672afc
+
+
+} 
+
+
 
 
 .product-box p{
 
-font-size: 18px;
+font-size: 20px;
 font-weight: bold;
 color: #313131;
 margin: 10px 0;
@@ -72,10 +89,16 @@ margin: 10px 0;
 .product-box span{
 
 font-weight: bold;
-margin: 0 5px;
+margin: 0 px;
 color: #000;
 
 }
+
+
+
+
+
+
 
 .product-box span strike{
 color: #525252;
@@ -83,17 +106,17 @@ color: #525252;
 
 .product-offer{
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 0%;
+    left: 0%;
     background-color: #000;
     color: #fff !important;
     width: 45px;
     height: 25px;
     border-radius: 5px;
-    padding: 5px;
-
-
+    padding: 10px;
 }
+
+
 
 .after-add-cart-boxs{
 
@@ -105,8 +128,13 @@ align-items: center;
 }
 
 .cart-box1{
+<<<<<<< HEAD
 width: 50px;
 height: 50px;
+=======
+width: 10px;
+height: 10px;
+>>>>>>> b5d3b632292faaa96b5c07c0c4508a7099672afc
 background-color: #292929;
 color: white;
 border-radius: 10px;
@@ -115,16 +143,21 @@ justify-content: space-evenly;
 align-items: center !important;
 padding: 10px;
 position: relative;
-bottom: -15px;
+bottom: -3px;
 transition: .3s;
 
 
 }
+
 .cart-box1 i{
 font-size: 18px;
 
 }
+<<<<<<< HEAD
 .product-box:hover .cart-box1{
+=======
+.cart-box1:hover .cart-box1{
+>>>>>>> b5d3b632292faaa96b5c07c0c4508a7099672afc
 
 transform: translateY(-155px);
 
@@ -132,7 +165,7 @@ transform: translateY(-155px);
 .cart-box1:hover{
 
 background-color: #dadada;
-color: #000;
+color: #0a4a5a;
 cursor: pointer;
 
 }
@@ -140,10 +173,114 @@ cursor: pointer;
 .cart-box1 p{
 
 color: #fff;
-font-weight: 13px;
-
+font-size: .13px;
 
 }
+
+
+.cart-box2{
+    width: 10px;
+    height: 10px;
+    background-color: #292929;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center !important;
+    padding: 10px;
+    position: relative;
+    bottom: -3px;
+    transition: .3s;
+    
+    }
+    
+    .cart-box2  i{
+    font-size: 18px;
+    
+    }
+    .cart-box2:hover .cart-box2{
+    
+    transform: translateY(-155px);
+    
+    }
+    .cart-box2 :hover{
+    
+    background-color: #dadada;
+    color: #0e5870;
+    cursor: pointer;
+    
+    }
+
+
+    .cart-box2 p{
+    
+    color: #fff;
+    font-size: 13px;
+    }
+
+
+    .cart-box3{
+        width: 10px;
+        height: 10px;
+        background-color: #292929;
+        color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center !important;
+        padding: 10px;
+        position: relative;
+        bottom: -3px;
+        transition: .3s;
+        
+        }
+        
+        .cart-box3 i{
+        font-size: 18px;
+        
+        }
+        .cart-box3:hover .cart-box3{
+        
+        transform: translateY(-155px);
+        
+        }
+        .cart-box3 :hover{
+        
+        background-color: #dadada;
+        color: #000;
+        cursor: pointer;
+        
+        }
+        
+        .cart-box3 p{
+        
+        color: #fff;
+        font-size: 13px;
+        
+        }
+        
+        
+        
+         */
+        
+        
+        
+        
+        
+        
+         
+    
+    
+    
+    
+    
+    
+    
+    
+     
+
+
+
 
 
 
@@ -244,6 +381,7 @@ font-weight: 13px;
 
 
 
+<<<<<<< HEAD
  /* .product-container{
 
     width: 100%;
@@ -347,3 +485,7 @@ nav .login_signup a{
 /* / */
       
        
+=======
+ 
+ 
+>>>>>>> b5d3b632292faaa96b5c07c0c4508a7099672afc
