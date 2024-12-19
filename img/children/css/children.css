@@ -35,6 +35,13 @@ nav{
     height: 400px;
 
 }
+ul li a{
+    color: #525252;
+    font-weight: 600;
+    font-size: 18px;
+    
+
+}
 ul li{
     display: inline-block;
     margin: 20px 0px;
@@ -70,9 +77,11 @@ ul li a:hover{
     color: #fff;
     border-radius: 500px;
     font-size: 18px;
+    font-weight: 300;
     height: 20px;
     padding: 3px;
 
 
 
 }
+
