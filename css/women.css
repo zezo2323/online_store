@@ -1,0 +1,148 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the products */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Product Card Styling */
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 200px;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.product-card a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.product-card a:hover {
+    background-color: #0056b3;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+*{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.body{
+
+    background-color: #dddf93;
+    background-repeat: no-repeat;
+    height: 78vh;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(20px);
+}
+/* navigation */
+ nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  height: 80px;
+  z-index: 999;
+  border-radius: 10px;
+}
+
+.logo img {
+  width: 120px;
+  height: 90px;
+}
+
+.nav-list .nav-li{
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  padding-left: 40px;
+} 
+
+.nav-link {
+  color: #525252;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #929510;
+}
+
+.icons-sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.nav-icon {
+  position: relative;
+  margin: 0 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cart menu {
+  cursor: pointer;
+}
+
+
+.login_signup .nav-link {
+  color: #000;
+  padding: 10px 20px;
+  background-color: #929510;
+  margin-left: 10px;
+  border: 2px solid #070707;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.login_signup .nav-link:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #929510;
+} 
+.bars{
+  display: none;
+}

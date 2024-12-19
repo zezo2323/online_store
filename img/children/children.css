@@ -1,4 +1,4 @@
-
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 *{
     font-family: "Playfair Display", serif;
@@ -9,7 +9,7 @@
 
 body{
     /* background-image: url(/img/head/background.jpg); */
-    background-color: #cccd94;
+    /* background-color: #cccd94;
     background-repeat: no-repeat;
     height: 78vh;
     background-size: cover;
@@ -17,26 +17,9 @@ body{
     backdrop-filter: blur(20px);
     /* background-color:#fff ; */
 }
+ /* */ 
 
-
-.product-wrapper{
-
-width:0%;
-background-color: #fff;
-
-
-}
-
-.product-container{
-
-max-width: 1600px;
-margin: auto;
-display: grid;
-grid-template-columns: repeat(3,1fr);
-place-items: center;
-background-color: #afff;
-} 
-
+/* /
 .product-box{
 width: 550px;
 height: 470px;
@@ -56,10 +39,12 @@ height: 300px;
 padding: 10px ;
 
 
-}
+} */ */
 
 
-.product-box p{
+
+
+/* .product-box p{
 
 font-size: 20px;
 font-weight: bold;
@@ -73,6 +58,9 @@ font-weight: bold;
 margin: 0 px;
 color: #000;
 }
+
+
+
 
 .product-box span strike{
 color: #525252;
@@ -88,9 +76,9 @@ color: #525252;
     height: 25px;
     border-radius: 5px;
     padding: 10px;
-
-
 }
+
+
 
 .after-add-cart-boxs{
 
@@ -115,6 +103,7 @@ bottom: -3px;
 transition: .3s;
 
 }
+
 .cart-box1 i{
 font-size: 18px;
 
@@ -127,7 +116,7 @@ transform: translateY(-155px);
 .cart-box1 :hover{
 
 background-color: #dadada;
-color: #000;
+color: #0a4a5a;
 cursor: pointer;
 
 }
@@ -135,13 +124,111 @@ cursor: pointer;
 .cart-box1 p{
 
 color: #fff;
-font-size: 13px;
-
+font-size: .13px;
 
 }
 
 
+.cart-box2{
+    width: 10px;
+    height: 10px;
+    background-color: #292929;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center !important;
+    padding: 10px;
+    position: relative;
+    bottom: -3px;
+    transition: .3s;
+    
+    }
+    
+    .cart-box2  i{
+    font-size: 18px;
+    
+    }
+    .cart-box2:hover .cart-box2{
+    
+    transform: translateY(-155px);
+    
+    }
+    .cart-box2 :hover{
+    
+    background-color: #dadada;
+    color: #0e5870;
+    cursor: pointer;
+    
+    }
 
+
+    .cart-box2 p{
+    
+    color: #fff;
+    font-size: 13px;
+    }
+
+
+    .cart-box3{
+        width: 10px;
+        height: 10px;
+        background-color: #292929;
+        color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center !important;
+        padding: 10px;
+        position: relative;
+        bottom: -3px;
+        transition: .3s;
+        
+        }
+        
+        .cart-box3 i{
+        font-size: 18px;
+        
+        }
+        .cart-box3:hover .cart-box3{
+        
+        transform: translateY(-155px);
+        
+        }
+        .cart-box3 :hover{
+        
+        background-color: #dadada;
+        color: #000;
+        cursor: pointer;
+        
+        }
+        
+        .cart-box3 p{
+        
+        color: #fff;
+        font-size: 13px;
+        
+        }
+        
+        
+        
+         */
+        
+        
+        
+        
+        
+        
+         
+    
+    
+    
+    
+    
+    
+    
+    
+     
 
 
 
@@ -158,90 +245,5 @@ font-size: 13px;
 
 
 
- /* .product-container{
-
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0 4%;
-
-
-} 
-
-
-
-.product-box{
-    height: 415px;
-    overflow: hidden;
-    margin: 30px 0;
-    position: relative;
-
-
-}
-
-.product-hover .after-add-cart-boxs{
-
-transform: translate(-10px);
-
-
-}
-
-.product-hover .product_img{
-
-    height: 250px;
-
-}
-.product-img{
-width: 250px;
-height: 300px;
-background-color: #efefefb1;
-transition: all .5s ease-in-out;
-}
-
-.product-img img{
-
-overflow: hidden;
-width: 100%;
-height: 100px;
-object-fit: cover;
-transition: all .5s ease-in-out;
-
-}
-
-.product_img span{
-position: absolute;
-top: 5%;
-left: 5%;
-background-color: #000;
-color: #afff;
-border-radius: 5px;
-padding: 5px;
-font-size: 15px;
-z-index: 99;
-opacity: 1 !important;
-}
-
-.product p{
-
-margin: 10px 0;
-transition: all 5s ease-in-out;
-
-
-}
-
-.product p strike{
-
-    color: #303030;
-    margin: 0 5px;
-}
-.product p span{
-color: #000;
-font-size: 20px;
-font-weight: 500;
-
-} 
- */
-
+ 
  
