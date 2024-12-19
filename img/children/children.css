@@ -21,7 +21,7 @@ body{
 
 .product-wrapper{
 
-width: 0%;
+width:0%;
 background-color: #fff;
 
 
@@ -32,17 +32,17 @@ background-color: #fff;
 max-width: 1600px;
 margin: auto;
 display: grid;
-grid-template-columns: repeat(4,1fr);
+grid-template-columns: repeat(3,1fr);
 place-items: center;
 background-color: #afff;
 } 
 
 .product-box{
-width: 300px;
-height: 300px;
+width: 550px;
+height: 470px;
 background-color: white;
 position: relative;
-margin: 0 0;
+margin: 10px 0;
 transition: .3s;
 cursor: pointer;
 overflow: hidden;
@@ -51,15 +51,17 @@ overflow: hidden;
 .product-box img{
 
 
-width: 100px;
-height: 100px;
+width: 350px;
+height: 300px;
+padding: 10px ;
+
 
 }
 
 
 .product-box p{
 
-font-size: 18px;
+font-size: 20px;
 font-weight: bold;
 color: #313131;
 margin: 10px 0;
@@ -68,24 +70,24 @@ margin: 10px 0;
 .product-box span{
 
 font-weight: bold;
-margin: 0 5px;
+margin: 0 px;
 color: #000;
 }
 
-.product-box spans strike{
+.product-box span strike{
 color: #525252;
 }
 
 .product-offer{
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 0%;
+    left: 0%;
     background-color: #000;
     color: #fff !important;
     width: 45px;
     height: 25px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
 
 
 }
@@ -99,8 +101,8 @@ align-items: center !important;
 }
 
 .cart-box1{
-width: 0px;
-height: 0px;
+width: 10px;
+height: 10px;
 background-color: #292929;
 color: white;
 border-radius: 10px;
@@ -109,7 +111,7 @@ justify-content: space-evenly;
 align-items: center !important;
 padding: 10px;
 position: relative;
-bottom: -15px;
+bottom: -3px;
 transition: .3s;
 
 }
@@ -117,7 +119,7 @@ transition: .3s;
 font-size: 18px;
 
 }
-.product-box1:hover .cart-box1{
+.cart-box1:hover .cart-box1{
 
 transform: translateY(-155px);
 
@@ -133,10 +135,16 @@ cursor: pointer;
 .cart-box1 p{
 
 color: #fff;
-font-weight: 13px;
+font-size: 13px;
 
 
 }
+
+
+
+
+
+
 
 
 
@@ -234,6 +242,6 @@ font-size: 20px;
 font-weight: 500;
 
 } 
-
-
  */
+
+ 
