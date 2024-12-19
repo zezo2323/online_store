@@ -6,11 +6,7 @@
     <title>fusion ware</title>
     <link rel="stylesheet" href="/css/main.css" />
     <!-- favicon -->
-    <link
-      rel="shortcut icon"
-      href="/img/head/2.ico"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="/img/head/2.ico" type="image/x-icon" />
     <!-- icons -->
     <link
       rel="stylesheet"
@@ -27,59 +23,81 @@
     <!-- navegation bar -->
     <nav>
       <div class="logo">
-        <a href="index.html"><img src="img/head/5.png" alt="logo" /></a>
+        <a href="index.html" class="nav-link">
+          <img src="img/head/5.png" alt="logo" />
+        </a>
       </div>
       <ul class="nav-list">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#categories">Categories</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="nav-li"><a href="/index.html" class="nav-link">Home</a></li>
+        <li class="nav-li">
+          <a href="#categories" class="nav-link">Categories</a>
+        </li>
+        <li class="nav-li">
+          <a href="#products" class="nav-link">Products</a>
+        </li>
+        <li class="nav-li"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-li">
+          <a href="/html/contact.html" class="nav-link">Contact</a>
+        </li>
       </ul>
       <div class="icons-sec">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <a href="#"><i class="fa-solid fa-user"></i></a>
-        <i class="fa-solid fa-heart"></i>
+        <!-- <i class="fa-solid fa-magnifying-glass nav-icon"></i>
+    <a href="#" class="nav-link"><i class="fa-solid fa-user nav-icon"></i></a> -->
+        <i class="fa-solid fa-heart nav-icon"></i>
         <div class="cart menu">
-          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-cart-shopping nav-icon"></i>
         </div>
       </div>
       <div class="login_signup">
-        <a href="/html/sign_in.html">Login <i class="fa-solid fa-right-to-bracket"></i></a>
-        <a href="#">Sign up <i class="fa-solid fa-user-plus"></i></a>
+        <a href="/html/sign_in.html" class="nav-link">
+          Login <i class="fa-solid fa-right-to-bracket nav-icon"></i>
+        </a>
+        <a href="#" class="nav-link">
+          Sign up <i class="fa-solid fa-user-plus nav-icon"></i>
+        </a>
       </div>
       <div class="bars">
-        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-bars nav-icon"></i>
       </div>
     </nav>
+
     <!-- header -->
-    <header id="Home">
+    <header class="header">
       <div class="hero_info">
         <div class="contain">
           <h2>COLLECTION</h2>
           <h1>Fusion <span>Ware</span></h1>
           <p>
-            "Discover endless elegance! <br />
+            Discover endless elegance! <br />
             Shop the latest clothing collections for the whole family: <br />
 
             Men | Women | Kids <br />
-            High quality, trendy designs, and competitive prices – because style
-            begins here!"
+            High quality, trendy designs, and competitive prices > because style
+            begins here!
           </p>
           <div class="shop-now-btn">
             <button class="shop_now_btn"><a href="#">SHOP NOW</a></button>
           </div>
         </div>
-        <div class="social_media">
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        </div>
         <div class="hero-img">
-          <img src="img/head/6.png" alt="" />
+          <img src="/img/head/6.png" alt="" />
         </div>
       </div>
     </header>
+
+
+
+
+
+
+
+
+    
+    <!-- <div class="social_media">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div> -->
 
     <!-- Categories -->
     <section id="categories">
@@ -268,7 +286,7 @@
     <!-- About -->
     <h1>about us</h1>
     <article id="about" class="zz">
-
+      
       <!-- Swiper -->
       <div
         style="
@@ -288,12 +306,12 @@
             <!-- <div class="subtitle" data-swiper-parallax="-200">About Us</div> -->
             <div class="text" data-swiper-parallax="-100">
               <p>
-                Welcome to [fusion ware], your first destination for the
-                latest fashion trends for the whole family. We aim to provide a
-                unique and convenient online shopping experience, where you can
-                find the latest men's, women's, and children's fashion with
-                modern designs and exceptional quality. We are here to make
-                elegance accessible and easy for everyone.
+                Welcome to [fusion ware], your first destination for the latest
+                fashion trends for the whole family. We aim to provide a unique
+                and convenient online shopping experience, where you can find
+                the latest men's, women's, and children's fashion with modern
+                designs and exceptional quality. We are here to make elegance
+                accessible and easy for everyone.
               </p>
             </div>
           </div>
@@ -302,8 +320,8 @@
             <!-- <div class="subtitle" data-swiper-parallax="-200">Our Vision</div> -->
             <div class="text" data-swiper-parallax="-100">
               <p>
-                At [fusion ware], we believe that elegance is not just
-                about clothes, it's a way of life. Our vision is to offer modern
+                At [fusion ware], we believe that elegance is not just about
+                clothes, it's a way of life. Our vision is to offer modern
                 fashion for all tastes at competitive prices and high quality.
                 We are committed to constantly updating our collections to align
                 with the latest global fashion trends. Our goal is to make every
@@ -332,144 +350,76 @@
         <div class="swiper-pagination"></div>
       </div>
     </article>
-
-    <!-- footer -->
-    <footer>
-      <div class="footer-top">
-        <div class="container">
-          <div class="col1">
-            <a href="#" class="fusion ware">Fusion Ware</a>
-            <ul class="media-icons">
-              <li>
-                <a href="#">
-                  <i class="fab fa-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-tumblr"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col2">
-            <ul class="menu">
-              <li>
-                <h4>Navigation Links</h4>
-              </li>
-              <li>
-                <a href="#">About Us</a>
-              </li>
-              <li>
-                <a href="#">Contact Us</a>
-              </li>
-              <li>
-                <a href="#">FAQ</a>
-              </li>
-              <li>
-                <a href="#">Terms & Conditions</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-            </ul>
-            <ul class="menu">
-              <li>
-                <h4>Contact Information</h4>
-              </li>
-              <li>
-                <a href="#">Phone number</a>
-              </li>
-              <li>
-                <a href="#">E-mail</a>
-              </li>
-              <li>
-                <a href="#">Address</a>
-              </li>
-            </ul>
-            <ul class="menu">
-              <li>
-                <h4>Help & Support</h4>
-              </li>
-              <li>
-                <a href="#">How To Shop</a>
-              </li>
-              <li>
-                <a href="#">poyment</a>
-              </li>
-              <li>
-                <a href="#">Returns</a>
-              </li>
-              <li>
-                <a href="#">Delivery</a>
-              </li>
-              <li>
-                <a href="#">Privacy Policy</a>
-              </li>
-            </ul>
-          </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-brand">
+          <h3>fusion ware</h3>
+          <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
         </div>
-        <div class="col3">
-          <h4>Additional Info</h4>
-          <p>
-            Online stores have become one of the most important channels that
-            people rely on to buy clothes, as they provide<br />
+    
+        <div class="footer-columns">
+          <div class="footer-column">
+            <h4>ABOUT</h4>
+            <ul>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>RESOURCES</h4>
+            <ul>
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Block</a></li>
+              <li><a href="#">eBooks</a></li>
+              <li><a href="#">Webinars</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>CONTACT</h4>
+            <ul>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Advertise</a></li>
+              <li><a href="#">Location</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>ADDITIONAL INFO</h4>
+            <p>
+              Online stores have become one of the most important channels that
+            people rely on to buy clothes, as they provide
             an easy and comfortable shopping experience. An online clothing
-            store can serve a wide range of customers of different <br />
-            ages and interests. In this topic, we will review the most important
-            information that can be included on the “Additional <br />
-            Information” page for any online store specializing in clothing.
-          </p>
-        </div>
-        <div class="footer-bottom">
-          <div class="container">
-            <p>We hope you have a great time</p>
-            <ul class="service-icons">
-              <li>
-                <a href="#">
-                  <i class="fab fa-cc-amazon-pay"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-cc-mastercard"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-cc-apple-pay"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-cc-stripe"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fab fa-cc-visa"></i>
-                </a>
-              </li>
-            </ul>
+            store can serve a wide range of customers of different 
+            ages and interests.
+    
+            </p>
           </div>
         </div>
       </div>
+    
+      <div class="footer-bottom">
+        <div class="container">
+          <p>We hope you have a great time</p>
+          <ul class="service-icons">
+            <li><a href="#"><i class="fab fa-cc-amazon-pay"></i></a></li>
+            <li><a href="#"><i class="fab fa-cc-mastercard"></i></a></li>
+            <li><a href="#"><i class="fab fa-cc-apple-pay"></i></a></li>
+            <li><a href="#"><i class="fab fa-cc-stripe"></i></a></li>
+            <li><a href="#"><i class="fab fa-cc-visa"></i></a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
+    
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- java script file  -->
@@ -477,8 +427,13 @@
     <!--
     login icons script ag
     -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
