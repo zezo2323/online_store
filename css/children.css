@@ -8,7 +8,7 @@
 
 body{
     /* background-image: url(/img/head/background.jpg); */
-    background-color: #929510;
+    background-color: #cccd94;
     background-repeat: no-repeat;
     height: 78vh;
     background-size: cover;
@@ -16,3 +16,5 @@ body{
     backdrop-filter: blur(20px);
     /* background-color:#fff ; */
 }
+
+

@@ -71,6 +71,20 @@ ul li a:hover{
     height: 20px;
     padding: 3px;
 } */
+/* style loging_signup buttons */
+
+nav .login_signup a{
+  color: var(--dark-color);
+  padding: 10px 20px;
+  background-color: var(--main-color);
+  margin-left: 10px;
+  border: 5px solid var(--dark-color); /* تم تحسين البوردر */
+  text-decoration: none; /* يزيل الخط السفلي للرابط */
+  border-radius: 8px; /* يضيف زوايا مستديرة للحدود */
+  display: inline-block; /* يضمن أن الحجم يتأثر بـ padding */
+}
+
+
 
 
 
