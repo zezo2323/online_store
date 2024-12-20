@@ -79,6 +79,11 @@ ul li a:hover{
 
 
 }
+.product-wrapper{
+
+    width: 100%;
+    background-color: #fff;
+}
 .product-container{
 
     max-width: 1600px;
@@ -90,8 +95,8 @@ ul li a:hover{
     } 
     
     .product-box{
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 380px;
     background-color: white;
     position: relative;
     margin: 10px 0;
@@ -104,8 +109,8 @@ ul li a:hover{
     .product-box img{
     
     
-    width: 325px;
-    height: 325px;
+    width: 225px;
+    height: 290px;
     
     
     
@@ -157,8 +162,8 @@ ul li a:hover{
     }
     
     .cart-box1{
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     background-color: #292929;
     color: white;
     border-radius: 10px;
@@ -202,8 +207,8 @@ ul li a:hover{
     
     
     .cart-box2{
-      width: 50px;
-      height: 50px;
+      width: 20px;
+      height: 20px;
       background-color: #292929;
       color: white;
       border-radius: 10px;
@@ -245,8 +250,8 @@ ul li a:hover{
 
 
       .cart-box3{
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
         background-color: #292929;
         color: white;
         border-radius: 10px;
@@ -281,9 +286,20 @@ ul li a:hover{
         
         color: #fff;
         font-weight: 13px;
+
         
         
         }
+        h1{
+            text-align: center;
+        }
+
+
+
+
+
+
+
         .product-box img{
 
 display: flex;
@@ -304,6 +320,7 @@ align-items: center;
 filter: brightness(100%);
 
 }
+
 
 
         
