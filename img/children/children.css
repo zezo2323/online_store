@@ -311,10 +311,7 @@ ul li a:hover{
 display: flex;
 gap: 20px;
 
-
-
-
-border: 5px solid whitesmoke;
+border: 5px solid rgba(245, 245, 245, 0.977);
 border-radius: 10px;
 
 transition:transform 0.3s border-color 0.3s;
@@ -323,7 +320,7 @@ transition:transform 0.3s border-color 0.3s;
 
 justify-content: center;
 align-items: center;
-filter: brightness(100%);
+filter: brightness(95%);
 
 }
 
