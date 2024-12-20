@@ -89,15 +89,17 @@ ul li a:hover{
     max-width: 1600px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     place-items: center;
     background-color: #fff;
+    
+    
     } 
     
     .product-box{
-    width: 200px;
-    height: 380px;
-    background-color: white;
+    width: 400px;
+    height: 420px;
+    background-color: rgb(201, 199, 199);
     position: relative;
     margin: 10px 0;
     transition: .3s;
@@ -110,7 +112,11 @@ ul li a:hover{
     
     
     width: 225px;
-    height: 290px;
+    height: 325px;
+    padding: 5px 80px;
+    
+    
+    
     
     
     

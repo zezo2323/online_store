@@ -58,7 +58,7 @@
         
         .content .left-side .details i {
             font-size: 30px;
-            color: #3e2093;
+            color: #7e7e7e;
             margin-bottom: 10px;
         }
         
@@ -81,7 +81,7 @@
         .content .right-side .topic-text {
             font-size: 23px;
             font-weight: 600;
-            color: #3e2093;
+            color: #7e7e7e;
         }
         
         .right-side .input-box {
@@ -114,7 +114,7 @@
         .right-side .button input[type="button"] {
             color: #fff;
             font-size: 18px;
-            background: #3e2093;
+            background: #7e7e7e;
             outline: none;
             border-radius: 6px;
             border: none;
@@ -124,7 +124,7 @@
         }
         
         .button input[type="button"]:hover {
-            background: #5029bc;
+            background: #7e7e7e;
         }
         
         @media (max-width:950px) {
