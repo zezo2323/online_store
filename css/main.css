@@ -22,13 +22,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 8%;
-  background-color: #edede9;
+  background-color: #fff;
   color: #000;
   position: relative;
   height: 80px;
   z-index: 999;
   border-radius: 10px;
-  border: 2px solid #000;
+  border: 2px solid #b0aaaa;
 }
 
 .logo img {
@@ -51,7 +51,7 @@
 }
 
 .nav-link:hover {
-  color: #929510;
+  color: #b0aaaa;
 }
 
 .icons-sec {
@@ -76,17 +76,18 @@
 .login_signup .nav-link {
   color: #fff;
   padding: 10px 20px;
-  background-color: #2c8dd7;
+  background-color: #b0aaaa;
   margin-left: 10px;
   border: 4px solid #fff;
   border-radius: 5px;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 .login_signup .nav-link:hover {
   background-color: #fff;
   color: #000;
-  border-color: #2c8dd7;
+  border-color: #b0aaaa;
 } 
 .bars{
   display: none;
@@ -103,7 +104,7 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size:cover;
-  background-color: #ffffff;
+  background-color: #f3f3f3;
   width: 100%;
   height: 80vh;
   border-radius: 5px;
@@ -128,14 +129,14 @@
   font-weight: 400;
   font-family: Arial, sans-serif;
   margin: 15px 0;
-  color: #b23a48;
+  color: #000;
 
 }
 .hero_info .contain h1 span{
   font-size: 55px;
   font-weight: 600;
   font-family: Arial, sans-serif;
-  color: #4087d9;
+  color: #7e7e7e;
 }
 .hero_info .contain p{
   font-size: 15px;
@@ -171,7 +172,7 @@ font-weight: 600;
   left: 0;
   width: 30px;
   height: 2px;
-  background-color: #929510;
+  background-color: #b0aaaa;
   transition: .3s;
 }
 .shop-now-btn button:hover:after{
@@ -222,7 +223,7 @@ font-weight: 600;
 }
 
 .footer-brand h3 span {
-  color: #929510;
+  color: #b0aaaa;
 }
 
 .social-icons {
@@ -243,7 +244,7 @@ font-weight: 600;
 }
 
 .social-icons li a:hover {
-  color: #929510; 
+  color: #b0aaaa; 
 }
 
 /* تنسيق الأعمدة في الفوتر */
@@ -283,7 +284,7 @@ font-weight: 600;
 }
 
 .footer-column ul li a:hover {
-  color: #929510;
+  color: #b0aaaa;
 }
  
 
@@ -293,7 +294,7 @@ font-weight: 600;
 }
 
 .footer-column p:hover {
-  color: #929510;
+  color: #b0aaaa;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -322,7 +323,7 @@ font-weight: 600;
 }
 
 .service-icons li a:hover {
-  color: #929510;
+  color: #b0aaaa;
 }
 
 @media (max-width: 1024px) {
