@@ -79,20 +79,27 @@ ul li a:hover{
 
 
 }
+.product-wrapper{
+
+    width: 100%;
+    background-color: #fff;
+}
 .product-container{
 
     max-width: 1600px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     place-items: center;
     background-color: #fff;
+    
+    
     } 
     
     .product-box{
-    width: 300px;
-    height: 400px;
-    background-color: white;
+    width: 400px;
+    height: 420px;
+    background-color: rgb(201, 199, 199);
     position: relative;
     margin: 10px 0;
     transition: .3s;
@@ -104,8 +111,12 @@ ul li a:hover{
     .product-box img{
     
     
-    width: 325px;
+    width: 225px;
     height: 325px;
+    padding: 5px 80px;
+    
+    
+    
     
     
     
@@ -157,8 +168,8 @@ ul li a:hover{
     }
     
     .cart-box1{
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     background-color: #292929;
     color: white;
     border-radius: 10px;
@@ -202,8 +213,8 @@ ul li a:hover{
     
     
     .cart-box2{
-      width: 50px;
-      height: 50px;
+      width: 20px;
+      height: 20px;
       background-color: #292929;
       color: white;
       border-radius: 10px;
@@ -245,8 +256,8 @@ ul li a:hover{
 
 
       .cart-box3{
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
         background-color: #292929;
         color: white;
         border-radius: 10px;
@@ -281,18 +292,26 @@ ul li a:hover{
         
         color: #fff;
         font-weight: 13px;
+
         
         
         }
+        h1{
+            text-align: center;
+        }
+
+
+
+
+
+
+
         .product-box img{
 
 display: flex;
 gap: 20px;
 
-
-
-
-border: 5px solid whitesmoke;
+border: 5px solid rgba(245, 245, 245, 0.977);
 border-radius: 10px;
 
 transition:transform 0.3s border-color 0.3s;
@@ -301,9 +320,10 @@ transition:transform 0.3s border-color 0.3s;
 
 justify-content: center;
 align-items: center;
-filter: brightness(100%);
+filter: brightness(95%);
 
 }
+
 
 
         
