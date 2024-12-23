@@ -98,7 +98,7 @@
     </header>
 
  
-    <hr />
+    <!-- <hr /> -->
     <!-- Categories -->
     <section id="categories">
       <div class="categories">
@@ -140,7 +140,7 @@
         </div>
       </div>
     </section>
-    <hr />
+    <!-- <hr /> -->
     <!-- top collection -->
     <section id="Products">
       <div class="products">
@@ -387,12 +387,17 @@
         </div>
       </div>
     </footer>
-    <script src="/JS/file.js"></script>
+    <script src="/js/file.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
           AOS.init({
             offset:1, 
           });
+    </script>
+    <script>document.querySelector('.bars').addEventListener('click', function () {
+      const navList = document.querySelector('.nav-list');
+      navList.classList.toggle('active'); // إضافة أو إزالة الكلاس 'active'
+    });
     </script>
   </body>
 </html>
