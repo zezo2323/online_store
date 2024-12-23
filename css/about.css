@@ -95,59 +95,147 @@
 
 
 
+/* ABOUT US */
+
+.about-container{
+  background-image: url(/img/bk_about.jpg);
+  height: 50vh;
+}
+
+.contain-about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contain-about h1{
+  font-size: 4rem;
+  line-height: 3rem;
+}
+
+.our-site-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.our-site-link a ,i ,p{
+  margin: 0px 2px;
+}
+
+.our-site-link a{
+  color: #3e3d3d;
+  
+}
+
+.about-client{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+}
+
+.left-side-contain{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 2px 0%;
+} 
+
+.left-side-contain h1{
+
+  font-size: 45px;
+  font-weight:bold;
+}
 
 
-/* about style */
+.left-side-contain p{
+  text-align: justify;
+  margin: 10px 0;
+  line-height: 20px;
+  font-size: 18px;
+  color: #3e3d3d;
+}
 
-@media (max-width: 768px) {
-    .swiper {
-      width: 100%; 
-      height: 300px; 
-    } }
 
+.right-side-contain{
+  padding:  15% 5% 0% 5%; 
+  width: 35%;
+}
 
-    .swiper {
-      width: 100%;
-      height: 400px;
-      background: #000;
-    } 
+.right-side-contain img{
+  width: 130%;
+}
 
-    .swiper-slide {
-      font-size: 18px;
-      color: #070707;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      padding: 40px 60px;
-    }
+.shop-from-us{
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+}
 
-    .parallax-bg {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 140%;
-      height: 100%;
-      -webkit-background-size: cover;
-      background-size: cover;
-      background-position: center;
-    
-    }
+.contain-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  position: relative;
+}
 
-    .swiper-slide .title {
-      font-size: 41px;
-      font-weight: 300;
-    }
+.contain-text h1{
+  font-size: 3.5rem;
+  font-weight: 500;
+}
 
-    .swiper-slide .subtitle {
-      font-size: 100px;
-    }
+.shop-service-box{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
-    .swiper-slide .text {
-      font-size: 19px;
-      max-width: 400px;
-      line-height: 1.3;
-    }
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  width: 300px;
+  height: 300px;
+  background-color: #f8f8f8;
+  box-shadow: 0  0 4px #000;
+}
+
+.box:hover i{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
  
+.box i{
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  background-color: #000;
+  color: #fff;
+  font-size: 40px;
+  padding: 20px 10px;
+  margin: 20px 0px;
+  transition: .3s;
+}
 
+.box h2{
+  margin: 30px 0;
+}
+
+.box p{
+  line-height: 25px;
+  color: #303030;
+}
 
 
 
