@@ -656,3 +656,50 @@ hr {
     margin-right: 8px;
   }
 }
+/* media */
+/* تعديل تصميم الناف بار إلى سايد بار على الشاشات الصغيرة */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px 5%;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-list .nav-li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .bars {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+}
+
+/* المنتجات تصبح تحت بعضها عند تصغير الشاشة */
+@media (max-width: 1024px) {
+  .product-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .product-container {
+    grid-template-columns: 1fr;
+  }
+}
+
