@@ -18,7 +18,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   </head>
 
@@ -70,9 +70,13 @@
     <header class="header">
       <div class="hero_info">
         <div class="contain">
-          <h2>COLLECTION</h2>
-          <h1>Fusion <span>Ware</span></h1>
-          <p>
+          <h2 data-aos="fade-right" data-aos-duration="1400">COLLECTION</h2>
+          <h1  data-aos="zoom-in-left"
+          data-aos-duration="1400"
+          data-aos-delay="200">Fusion <span>Ware</span></h1>
+          <p data-aos="zoom-in-right"
+          data-aos-duration="1400"
+          data-aos-delay="300">
             Discover endless elegance! <br />
             Shop the latest clothing collections for the whole family: <br />
 
@@ -80,12 +84,15 @@
             High quality, trendy designs, and competitive prices > because style
             begins here!
           </p>
-          <div class="shop-now-btn">
+          <div class="shop-now-btn"   
+          data-aos="flip-down"
+          data-aos-duration="1400"
+          data-aos-delay="400">
             <button class="shop_now_btn"><a href="#">SHOP NOW</a></button>
           </div>
         </div>
-        <div class="hero-img">
-          <img src="/img/head/6.png" alt="" />
+        <div class="hero-img" data-aos="zoom-in" data-aos-duration="1400">
+          <img src="/img/men/7.png" alt="" />
         </div>
       </div>
     </header>
@@ -380,9 +387,12 @@
         </div>
       </div>
     </footer>
+    <script src="/JS/file.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-          AOS.init();
+          AOS.init({
+            offset:1, 
+          });
     </script>
   </body>
 </html>
