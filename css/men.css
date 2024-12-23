@@ -130,6 +130,8 @@ nav {
 .product-box img {
   width: 85%;
   height: 85%;
+  object-fit: contain;
+
 }
 
 .product-img{
@@ -460,3 +462,28 @@ nav {
     margin-right: 8px;
   }
 }
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination a {
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
