@@ -1,403 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>fusion ware</title>
-    <link rel="stylesheet" href="/css/main.css" />
-    <!-- favicon -->
-    <link rel="shortcut icon" href="/img/head/2.ico" type="image/x-icon" />
-    <!-- icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-    />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fusion ware</title>
+  <link rel="stylesheet" href="/css/main.css" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/img/head/2.ico" type="image/x-icon" />
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  <body class="body">
-    <!-- navegation bar -->
-    <nav>
-      <div class="logo">
-        <a href="index.html" class="nav-link">
-          <img src="img/head/5.png" alt="logo" />
-        </a>
-      </div>
-      <ul class="nav-list">
-        <li class="nav-li"><a href="/index.html" class="nav-link">Home</a></li>
-        <li class="nav-li">
-          <a href="#categories" class="nav-link">Categories</a>
-        </li>
-        <li class="nav-li">
-          <a href="#Products" class="nav-link">Products</a>
-        </li>
-        <li class="nav-li">
-          <a href="/html/about.html" class="nav-link">About</a>
-        </li>
-        <li class="nav-li">
-          <a href="/html/contact.html" class="nav-link">Contact</a>
-        </li>
-      </ul>
-      <div class="icons-sec">
-        <!-- <i class="fa-solid fa-magnifying-glass nav-icon"></i>
+</head>
+
+<body class="body">
+  <!-- navegation bar -->
+  <nav>
+    <div class="logo">
+      <a href="index.html" class="nav-link">
+        <img src="img/head/5.png" alt="logo" />
+      </a>
+    </div>
+    <ul class="nav-list">
+      <li class="nav-li"><a href="/index.html" class="nav-link">Home</a></li>
+      <li class="nav-li">
+        <a href="#categories" class="nav-link">Categories</a>
+      </li>
+      <li class="nav-li">
+        <a href="#Products" class="nav-link">Products</a>
+      </li>
+      <li class="nav-li">
+        <a href="/html/about.html" class="nav-link">About</a>
+      </li>
+      <li class="nav-li">
+        <a href="/html/contact.html" class="nav-link">Contact</a>
+      </li>
+    </ul>
+    <div class="icons-sec">
+      <!-- <i class="fa-solid fa-magnifying-glass nav-icon"></i>
     <a href="#" class="nav-link"><i class="fa-solid fa-user nav-icon"></i></a> -->
-        <i class="fa-solid fa-heart nav-icon"></i>
-        <div class="cart menu">
-          <i class="fa-solid fa-cart-shopping nav-icon"></i>
+      <i class="fa-solid fa-heart nav-icon"></i>
+      <div class="cart menu">
+        <i class="fa-solid fa-cart-shopping nav-icon"></i>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div>
+      <button class="btn-log">
+        Login <i class="fa-solid fa-right-to-bracket nav-icon"></i>
+      </button>
+      <button class="btn-sign">
+        Sign up <i class="fa-solid fa-user-plus nav-icon"></i>
+      </button>
+    </div>
+    <div class="bars">
+      <i class="fa-solid fa-bars nav-icon"></i>
+    </div>
+  </nav>
+
+  <div class="modal-container">
+    <div class="modal-content">
+      <i class="fa fa-times close" onclick="closemodalcontainer()"></i>
+
+      <form class="login-form">
+        <h2 class="login-title">Login</h2>
+        <div class="form-control">
+          <label for="email"><i class="fa fa-envelope"></i>Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email" required>
         </div>
-      </div>
-      <div class="login_signup">
-        <a href="/html/Log_In.html" class="nav-link">
-          Login <i class="fa-solid fa-right-to-bracket nav-icon"></i>
-        </a>
-        <a href="/html/sign_in.html" class="nav-link">
-          Sign up <i class="fa-solid fa-user-plus nav-icon"></i>
-        </a>
-      </div>
-      <div class="bars">
-        <i class="fa-solid fa-bars nav-icon"></i>
-      </div>
-    </nav>
-
-    <!-- header -->
-    <header class="header">
-      <div class="hero_info">
-        <div class="contain">
-          <h2 data-aos="fade-right" data-aos-duration="1400">COLLECTION</h2>
-          <h1  data-aos="zoom-in-left"
-          data-aos-duration="1400"
-          data-aos-delay="200">Fusion <span>Ware</span></h1>
-          <p data-aos="zoom-in-right"
-          data-aos-duration="1400"
-          data-aos-delay="300">
-            Discover endless elegance! <br />
-            Shop the latest clothing collections for the whole family: <br />
-
-            Men | Women | Kids <br />
-            High quality, trendy designs, and competitive prices > because style
-            begins here!
-          </p>
-          <div class="shop-now-btn"   
-          data-aos="flip-down"
-          data-aos-duration="1400"
-          data-aos-delay="400">
-            <button class="shop_now_btn"><a href="#">SHOP NOW</a></button>
+        <div class="form-control">
+          <label for="password"><i class="fa fa-lock"></i>Password</label>
+          <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        </div>
+        <div class="form-comtrol-forget">
+          <div class="forget">
+            <label for="Remember" class="remember">
+              <input type="checkbox" name="Remember" id="Remember">
+              Remember Me</label>
+            <a href="#" class="forgot-password">Forgot Password?</a>
           </div>
         </div>
-        <div class="hero-img" data-aos="zoom-in" data-aos-duration="1400">
-          <img src="/img/men/7.png" alt="" />
+        <div class="form-control-forget">
+          <button>Login</button>
+        </div>
+        <div class="form-control-forget">
+          <label for="create">Don't have an account?
+            <a href="javascript:void(0)" class="create" id="create" onclick="openCreate()">Create one</a>
+          </label>
+        </div>
+      </form>
+
+
+<!-- 
+      <form class="registration">
+        <h2 class="login-title">Registration</h2>
+
+        <div class="form-control">
+          <label for="Username"><i class="fa fa-user"></i> Username</label>
+          <input type="text" id="email" placeholder="Enter your Username" required>
+        </div>
+        <div class="form-control">
+          <label for="email"><i class="fa fa-envelope"></i>Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-control">
+          <label for="password"><i class="fa fa-lock"></i>Password</label>
+          <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        </div>
+        <div class="form-comtrol-others">
+          <div class="terms">
+            <label for="terms">
+              <input type="checkbox" name="terms" id="terms" required>
+              I agree to the terms and conditions
+            </label>
+          </div>
+        </div>
+        <div class="form-control-others">
+          <button>Submit</button>
+        </div>
+        <div class="form-control-others">
+          <label for="create">Already have an account? <a href="javascript:void(0)" class="create" id="create"
+              onclick="openCreate()"></a>
+            <a href="javascript:void(0)" class="create" id="loginhere">log in</a>
+          </label>
+        </div>
+      </form> -->
+    </div>
+  </div>
+
+  <!-- header -->
+  <header class="header">
+    <div class="hero_info">
+      <div class="contain">
+        <h2 data-aos="fade-right" data-aos-duration="1400">COLLECTION</h2>
+        <h1 data-aos="zoom-in-left" data-aos-duration="1400" data-aos-delay="200">Fusion <span>Ware</span></h1>
+        <p data-aos="zoom-in-right" data-aos-duration="1400" data-aos-delay="300">
+          Discover endless elegance! <br />
+          Shop the latest clothing collections for the whole family: <br />
+
+          Men | Women | Kids <br />
+          High quality, trendy designs, and competitive prices > because style
+          begins here!
+        </p>
+        <div class="shop-now-btn" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="400">
+          <button class="shop_now_btn"><a href="#">SHOP NOW</a></button>
         </div>
       </div>
-    </header>
+      <div class="hero-img" data-aos="zoom-in" data-aos-duration="1400">
+        <img src="/img/men/7.png" alt="" />
+      </div>
+    </div>
+  </header>
 
- 
-    <!-- <hr /> -->
-    <!-- Categories -->
-    <section id="categories">
-      <div class="categories">
-        <div class="Cate">
-          <h2>Categories</h2>
-          <div class="collection">
-            <div class="collection-big-card all-collection">
-              <a href="/html/men.html" target="_blank">
-                <img src="img/head/men's.png" alt="" class="mens-img" />
-              </a>
-              <div class="collection-text">
-                <p>SECTION</p>
-                <h1>MEN's</h1>
-              </div>
+
+  <!-- <hr /> -->
+  <!-- Categories -->
+  <section id="categories">
+    <div class="categories">
+      <div class="Cate">
+        <h2>Categories</h2>
+        <div class="collection">
+          <div class="collection-big-card all-collection">
+            <a href="/html/men.html" target="_blank">
+              <img src="img/head/men's.png" alt="" class="mens-img" />
+            </a>
+            <div class="collection-text">
+              <p>SECTION</p>
+              <h1>MEN's</h1>
             </div>
-            <div class="collection-big-card all-collection">
-              <a href="/html/children.html" target="_blank">
-                <img
-                  src="img/head/children's.png"
-                  alt=""
-                  class="childrens-img"
-                />
-              </a>
-              <div class="collection-text">
-                <p>SECTION</p>
-                <h1>CHILDREN's</h1>
-              </div>
+          </div>
+          <div class="collection-big-card all-collection">
+            <a href="/html/children.html" target="_blank">
+              <img src="img/head/children's.png" alt="" class="childrens-img" />
+            </a>
+            <div class="collection-text">
+              <p>SECTION</p>
+              <h1>CHILDREN's</h1>
             </div>
-            <div class="collection-big-card all-collection">
-              <a href="/html/women.html" target="_blank">
-                <img src="img/head/women's.png" alt="" class="womens-img" />
-              </a>
-              <div class="collection-text">
-                <p>SECTION</p>
-                <h1>WOMEN's</h1>
-              </div>
+          </div>
+          <div class="collection-big-card all-collection">
+            <a href="/html/women.html" target="_blank">
+              <img src="img/head/women's.png" alt="" class="womens-img" />
+            </a>
+            <div class="collection-text">
+              <p>SECTION</p>
+              <h1>WOMEN's</h1>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- <hr /> -->
-    <!-- top collection -->
-    <section id="Products">
-      <div class="products">
-        <h1>Our top collection</h1>
-        <div class="product-wrapper">
-          <div class="product-container">
-            <!-- product 1 -->
-            <div class="product-box">
-              <a href="/html/men.html">
-                <img src="/img/top/top1.png" alt="" class="product-img"
-              /></a>
-              <p>Hody</p>
-              <span><strike>$350.00</strike></span>
-              <span>$340</span>
-              <span class="product-offer">-10%</span>
-              <div class="after-add-cart-boxs">
-                <!-- cart box 1 -->
-                <div class="cart-box1">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <!-- cart box 2 -->
-                <div class="cart-box2">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <!-- cart box 3 -->
-                <div class="cart-box3">
-                  <i class="fa-solid fa-eye"></i>
-                </div>
+    </div>
+  </section>
+  <!-- <hr /> -->
+  <!-- top collection -->
+  <section id="Products">
+    <div class="products">
+      <h1>Our top collection</h1>
+      <div class="product-wrapper">
+        <div class="product-container">
+          <!-- product 1 -->
+          <div class="product-box">
+            <a href="/html/men.html">
+              <img src="/img/top/top1.png" alt="" class="product-img" /></a>
+            <p>Hody</p>
+            <span><strike>$350.00</strike></span>
+            <span>$340</span>
+            <span class="product-offer">-10%</span>
+            <div class="after-add-cart-boxs">
+              <!-- cart box 1 -->
+              <div class="cart-box1">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <!-- cart box 2 -->
+              <div class="cart-box2">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <!-- cart box 3 -->
+              <div class="cart-box3">
+                <i class="fa-solid fa-eye"></i>
               </div>
             </div>
-            <!-- product 2 -->
-            <div class="product-box">
-              <a href="/html/men.html">
-                <img src="/img/top/top2.png" alt="" class="product-img"
-              /></a>
-              <p>Jacket</p>
-              <span><strike>$500.00</strike></span>
-              <span>$490</span>
-              <span class="product-offer">-10%</span>
-              <div class="after-add-cart-boxs">
-                <!-- cart box 1 -->
-                <div class="cart-box1">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <!-- cart box 2 -->
-                <div class="cart-box2">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <!-- cart box 3 -->
-                <div class="cart-box3">
-                  <i class="fa-solid fa-eye"></i>
-                </div>
+          </div>
+          <!-- product 2 -->
+          <div class="product-box">
+            <a href="/html/men.html">
+              <img src="/img/top/top2.png" alt="" class="product-img" /></a>
+            <p>Jacket</p>
+            <span><strike>$500.00</strike></span>
+            <span>$490</span>
+            <span class="product-offer">-10%</span>
+            <div class="after-add-cart-boxs">
+              <!-- cart box 1 -->
+              <div class="cart-box1">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <!-- cart box 2 -->
+              <div class="cart-box2">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <!-- cart box 3 -->
+              <div class="cart-box3">
+                <i class="fa-solid fa-eye"></i>
               </div>
             </div>
-            <!-- product 3 -->
-            <div class="product-box">
-              <a href="/html/children.html">
-                <img src="/img/top/top3.png" alt="" class="product-img"
-              /></a>
-              <p>Children's T-shirt and pants</p>
-              <span><strike>$250.00</strike></span>
-              <span>$240</span>
-              <span class="product-offer">-10%</span>
-              <div class="after-add-cart-boxs">
-                <!-- cart box 1 -->
-                <div class="cart-box1">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <!-- cart box 2 -->
-                <div class="cart-box2">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <!-- cart box 3 -->
-                <div class="cart-box3">
-                  <i class="fa-solid fa-eye"></i>
-                </div>
+          </div>
+          <!-- product 3 -->
+          <div class="product-box">
+            <a href="/html/children.html">
+              <img src="/img/top/top3.png" alt="" class="product-img" /></a>
+            <p>Children's T-shirt and pants</p>
+            <span><strike>$250.00</strike></span>
+            <span>$240</span>
+            <span class="product-offer">-10%</span>
+            <div class="after-add-cart-boxs">
+              <!-- cart box 1 -->
+              <div class="cart-box1">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <!-- cart box 2 -->
+              <div class="cart-box2">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <!-- cart box 3 -->
+              <div class="cart-box3">
+                <i class="fa-solid fa-eye"></i>
               </div>
             </div>
-            <!-- product 4 -->
-            <div class="product-box">
-              <a href="/html/children.html">
-                <img src="/img/top/top4.png" alt="" class="product-img"
-              /></a>
-              <p>Children's T-shirt and pants</p>
-              <span><strike>$300.00</strike></span>
-              <span>$290</span>
-              <span class="product-offer">-10%</span>
-              <div class="after-add-cart-boxs">
-                <!-- cart box 1 -->
-                <div class="cart-box1">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <!-- cart box 2 -->
-                <div class="cart-box2">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <!-- cart box 3 -->
-                <div class="cart-box3">
-                  <i class="fa-solid fa-eye"></i>
-                </div>
+          </div>
+          <!-- product 4 -->
+          <div class="product-box">
+            <a href="/html/children.html">
+              <img src="/img/top/top4.png" alt="" class="product-img" /></a>
+            <p>Children's T-shirt and pants</p>
+            <span><strike>$300.00</strike></span>
+            <span>$290</span>
+            <span class="product-offer">-10%</span>
+            <div class="after-add-cart-boxs">
+              <!-- cart box 1 -->
+              <div class="cart-box1">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <!-- cart box 2 -->
+              <div class="cart-box2">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <!-- cart box 3 -->
+              <div class="cart-box3">
+                <i class="fa-solid fa-eye"></i>
               </div>
             </div>
-            <!-- product 5 -->
-            <div class="product-box">
-              <a href="/html/women.html">
-                <img src="/img/top/top5.png" alt="" class="product-img"
-              /></a>
-              <p>Dress</p>
-              <span><strike>$350.00</strike></span>
-              <span>$340</span>
-              <span class="product-offer">-10%</span>
-              <div class="after-add-cart-boxs">
-                <!-- cart box 1 -->
-                <div class="cart-box1">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <!-- cart box 2 -->
-                <div class="cart-box2">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <!-- cart box 3 -->
-                <div class="cart-box3">
-                  <i class="fa-solid fa-eye"></i>
-                </div>
+          </div>
+          <!-- product 5 -->
+          <div class="product-box">
+            <a href="/html/women.html">
+              <img src="/img/top/top5.png" alt="" class="product-img" /></a>
+            <p>Dress</p>
+            <span><strike>$350.00</strike></span>
+            <span>$340</span>
+            <span class="product-offer">-10%</span>
+            <div class="after-add-cart-boxs">
+              <!-- cart box 1 -->
+              <div class="cart-box1">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <!-- cart box 2 -->
+              <div class="cart-box2">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <!-- cart box 3 -->
+              <div class="cart-box3">
+                <i class="fa-solid fa-eye"></i>
               </div>
             </div>
-            <!-- product 6 -->
-            <div class="product-box">
-              <a href="/html/women.html">
-                <img src="/img/top/top6.png" alt="" class="product-img"
-              /></a>
-              <p>Drees</p>
-              <span><strike>$350.00</strike></span>
-              <span>$340</span>
-              <span class="product-offer">-10%</span>
-              <div class="after-add-cart-boxs">
-                <!-- cart box 1 -->
-                <div class="cart-box1">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <!-- cart box 2 -->
-                <div class="cart-box2">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <!-- cart box 3 -->
-                <div class="cart-box3">
-                  <i class="fa-solid fa-eye"></i>
-                </div>
+          </div>
+          <!-- product 6 -->
+          <div class="product-box">
+            <a href="/html/women.html">
+              <img src="/img/top/top6.png" alt="" class="product-img" /></a>
+            <p>Drees</p>
+            <span><strike>$350.00</strike></span>
+            <span>$340</span>
+            <span class="product-offer">-10%</span>
+            <div class="after-add-cart-boxs">
+              <!-- cart box 1 -->
+              <div class="cart-box1">
+                <i class="fa-solid fa-heart"></i>
               </div>
+              <!-- cart box 2 -->
+              <div class="cart-box2">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <!-- cart box 3 -->
+              <div class="cart-box3">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+            </div>
             </a>
           </div>
         </div>
       </div>
-    </section>
+  </section>
 
-      <!-- Footer -->
-    <footer class="footer">
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <h3>fusion <span>Ware</span></h3>
+        <ul class="social-icons">
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-tumblr"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h4>LINKS</h4>
+          <ul>
+            <li><a href="/html/about.html" target="_blank">About Us</a></li>
+            <li>
+              <a href="/html/contact.html" target="_blank">Contact Us</a>
+            </li>
+            <li><a href="#" target="_blank">FAQ</a></li>
+            <li><a href="#" target="_blank">Terms & Conditions</a></li>
+            <li><a href="#" target="_blank">Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>SUPPORTS</h4>
+          <ul>
+            <li><a href="#" target="_blank">How To Shop</a></li>
+            <li><a href="#" target="_blank">poyment</a></li>
+            <li><a href="#" target="_blank">Returns</a></li>
+            <li><a href="#" target="_blank">Delivery</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>SHOPS</h4>
+          <ul>
+            <li><a href="/html/men.html" target="_blank">Men's</a></li>
+            <li>
+              <a href="/html/children.html" target="_blank">Children's</a>
+            </li>
+            <li><a href="#" target="_blank">Women's</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>ADDITIONAL INFO</h4>
+          <p class="add-info">
+            Online stores have become one of the most important channels that
+            people rely on to buy clothes, as they provide an easy and
+            comfortable shopping experience. An online clothing store can
+            serve a wide range of customers of different ages and interests.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
       <div class="container">
-        <div class="footer-brand">
-          <h3>fusion <span>Ware</span></h3>
-          <ul class="social-icons">
-            <li>
-              <a href="#"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-tumblr"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer-columns">
-          <div class="footer-column">
-            <h4>LINKS</h4>
-            <ul>
-              <li><a href="/html/about.html" target="_blank">About Us</a></li>
-              <li>
-                <a href="/html/contact.html" target="_blank">Contact Us</a>
-              </li>
-              <li><a href="#" target="_blank">FAQ</a></li>
-              <li><a href="#" target="_blank">Terms & Conditions</a></li>
-              <li><a href="#" target="_blank">Services</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h4>SUPPORTS</h4>
-            <ul>
-              <li><a href="#" target="_blank">How To Shop</a></li>
-              <li><a href="#" target="_blank">poyment</a></li>
-              <li><a href="#" target="_blank">Returns</a></li>
-              <li><a href="#" target="_blank">Delivery</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h4>SHOPS</h4>
-            <ul>
-              <li><a href="/html/men.html" target="_blank">Men's</a></li>
-              <li>
-                <a href="/html/children.html" target="_blank">Children's</a>
-              </li>
-              <li><a href="#" target="_blank">Women's</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h4>ADDITIONAL INFO</h4>
-            <p class="add-info">
-              Online stores have become one of the most important channels that
-              people rely on to buy clothes, as they provide an easy and
-              comfortable shopping experience. An online clothing store can
-              serve a wide range of customers of different ages and interests.
-            </p>
-          </div>
-        </div>
+        <p>Payment via</p>
+        <ul class="service-icons">
+          <li>
+            <a href="#"><i class="fab fa-cc-amazon-pay"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-cc-apple-pay"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-cc-stripe"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-cc-visa"></i></a>
+          </li>
+        </ul>
       </div>
-
-      <div class="footer-bottom">
-        <div class="container">
-          <p>Payment via</p>
-          <ul class="service-icons">
-            <li>
-              <a href="#"><i class="fab fa-cc-amazon-pay"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-cc-mastercard"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-cc-apple-pay"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-cc-stripe"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-cc-visa"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <script src="/js/file.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-          AOS.init({
-            offset:1, 
-          });
-    </script>
-    <script>document.querySelector('.bars').addEventListener('click', function () {
+    </div>
+  </footer>
+  <script src="/js/file.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 1,
+    });
+  </script>
+  <script>document.querySelector('.bars').addEventListener('click', function () {
       const navList = document.querySelector('.nav-list');
       navList.classList.toggle('active'); // إضافة أو إزالة الكلاس 'active'
     });
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
