@@ -132,7 +132,7 @@
 
  .modal-container {
   position: fixed; /* Changed to fixed for better positioning */
-  /* visibility: hidden; */
+  visibility: hidden;
   /* opacity: 0; */
   top: 0;
   right: 0;
@@ -265,6 +265,14 @@
   position: absolute;
   transform: translate (500px);
 }
+
+
+
+
+
+
+
+
 
 
 
