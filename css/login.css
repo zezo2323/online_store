@@ -57,14 +57,16 @@
 }
 
 .body {
-  background-color: #fff;
-
-  background-color: #fff;
+    background-image: url('/img/backforsign/bbb.jpeg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  /* background-color: #ebcece; */
   background-repeat: no-repeat;
   height: 78vh;
   background-size: cover;
   background-attachment: fixed;
-  backdrop-filter: blur(20px);
+  /* backdrop-filter: blur(20px); */
 }
 /* navigation */
 nav {
@@ -124,7 +126,7 @@ nav {
 .login_signup .nav-link {
   color: #fff;
   padding: 10px 20px;
-  background-color: #b0aaaa;
+  background-color: #c7c196;
   margin-left: 10px;
   border: 4px solid #fff;
   border-radius: 5px;
@@ -133,9 +135,7 @@ nav {
 }
 
 .login_signup .nav-link:hover {
-  background-color: #fff;
-  color: #000;
-  border-color: #b0aaaa;
+background-color:#686b00 ;
 }
 .bars {
   display: none;
@@ -143,26 +143,61 @@ nav {
 
 
 /* Form Box */
-.form-box {
+/* .form-box {
   background-color: white;
   padding: 30px 40px;
   border-radius: 40px;
   box-shadow: 0 0px 0px rgba(58, 9, 9, 0.5);
   width: 100%;
-  max-width: 600px; /* Limiting the max width for better responsiveness */
+  max-width: 600px; 
   text-align: center;
   box-sizing: border-box;
   z-index: 1;
   position: relative; 
   text-align: center;
   font-size: 30px;
-}
 
+} */
+
+.wrapper {
+  width: 600px;
+  height: 590px;
+  /* background: transparent; */
+  border: 1px solid rgba(167, 179, 5, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  position: relative; 
+  text-align: center;
+  font-size: 24px;
+} 
+.form-log{
+  padding: 30px 40px;
+  /* background-color: white; */
+  box-shadow: 0 0px 0px rgba(58, 9, 9, 0.5);
+  width: 100%;
+  max-width: 600px; 
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 1;
+  position: relative; 
+  text-align: center;
+  font-size: 30px;
+  
+}
 /* Heading */
-.form-box h2 {
+.h2-log{
   font-size: 50px;
-  color: #765151;
-  margin-bottom: 30px;
+  top: 50px;
+  color: #727008;
+  margin-bottom: 80px;
   margin-top: 5px;
   font-weight: bold;
 }
@@ -206,16 +241,7 @@ nav {
   font-size: 20px;
 }
 
-/* Icons inside the input boxes */
-.iconemail, .icon {
-  position: absolute; 
-  right: -25px;
-  
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 20px;
-  color: #aaa;
-}
+
 
 /* Remember me and Forgot Password */
 .remember-forgot {
@@ -273,26 +299,7 @@ nav {
 
 
 
-.wrapper {
-  width: 600px;
-  height: 590px;
-  background: transparent;
-  border: 2px solid rgba(62, 22, 208, 0.5);
-  border-radius: 20px;
-  backdrop-filter: blur(40px);
-  box-shadow: 0 0 10px rgba(145, 12, 12, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;     
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  position: relative; 
-  text-align: center;
-  font-size: 24px;
-} 
-.wrapper::before {
+/* .wrapper::before {
   content: "";
   position: absolute;
   top: 0;
@@ -302,7 +309,7 @@ nav {
   background: url("https://i.pinimg.com/736x/7a/6d/9e/7a6d9e7e8f8d8a7f7a8d9e7e8f8d8a7f.jpg") no-repeat center center/cover;
   opacity: 0.5;
   z-index: -1;
-}
+} */
 
 
 

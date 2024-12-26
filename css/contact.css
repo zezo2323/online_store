@@ -134,7 +134,7 @@ nav {
 
 .content .left-side .details i {
   font-size: 30px;
-  color: #7e7e7e;
+  color: #c7c196;
   margin-bottom: 10px;
 }
 
@@ -157,7 +157,7 @@ nav {
 .content .right-side .topic-text {
   font-size: 23px;
   font-weight: 600;
-  color: #7e7e7e;
+  color: #c7c196;
 }
 
 .right-side .input-box {
@@ -190,7 +190,7 @@ nav {
 .right-side .button input[type="button"] {
   color: #fff;
   font-size: 18px;
-  background: #7e7e7e;
+  background: #c7c196;
   outline: none;
   border-radius: 6px;
   border: none;
@@ -200,7 +200,7 @@ nav {
 }
 
 .button input[type="button"]:hover {
-  background: #7e7e7e;
+  background: #686b00;
 }
 
 @media (max-width: 950px) {
