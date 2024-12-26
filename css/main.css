@@ -336,7 +336,7 @@ hr {
 }
 
 .product-box p {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   color: #000000;
   margin: 0;
@@ -347,12 +347,14 @@ hr {
 .product-box span {
   font-weight: bold;
   color: #000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .product-box span strike {
   font-size: 20px;
   font-weight: bold;
   color: #525252;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .product-offer {
@@ -389,7 +391,7 @@ hr {
 }
 
 .cart-box1 i {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .product-box:hover .cart-box1 {
