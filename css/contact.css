@@ -325,11 +325,11 @@ nav {
   margin-right: 0;
 }
 
-/* .footer-column p:hover {
-    color: #b0aaaa;
-    font-size: 15px;
-    line-height: 1.5;
-  } */
+.footer-column p {
+  width: 102%;
+  font-size: 18px;
+  text-align: justify;
+}
 
 /* Footer bottom section */
 .footer-bottom {
