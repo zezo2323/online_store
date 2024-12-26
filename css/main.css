@@ -485,7 +485,7 @@ hr {
 }
 
 .footer {
-  background: url(/img/head/background.jpg) no-repeat;
+  background: url(../img/head/background.jpg) no-repeat;
   background-size: cover;
   color: #ffffff;
   padding: 40px 0;
@@ -526,7 +526,7 @@ hr {
   color: #b0aaaa;
 }
 
-/* تنسيق الأعمدة في الفوتر */
+
 .footer-columns {
   display: flex;
   justify-content: space-between;

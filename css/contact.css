@@ -241,7 +241,7 @@ nav {
 }
 
 .footer {
-  background: url(/img/head/background.jpg) no-repeat;
+  background: url(../img/head/background.jpg) no-repeat;
   background-size: cover;
   color: #ffffff;
   padding: 40px 0;

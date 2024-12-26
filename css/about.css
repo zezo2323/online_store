@@ -98,7 +98,7 @@ nav {
 /* ABOUT US */
 
 .about-container{
-  background-image: url(/img/new/bk_about.jpg);
+  background-image: url(../img/new/bk_about.jpg);
   height: 50vh;
 }
 
@@ -258,7 +258,7 @@ nav {
 }
 
 .footer {
-  background:url(/img/head/background.jpg)
+  background:url(../img/head/background.jpg)
   no-repeat;
   background-size: cover;
   color: #ffffff;
