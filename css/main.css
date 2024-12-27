@@ -658,7 +658,7 @@ hr {
     margin-right: 8px;
   }
 }
-
+/* media query for mobile devices */
 @media(max-width:950px){
   .bars{
     display: block;
