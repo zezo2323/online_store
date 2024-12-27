@@ -734,4 +734,19 @@ hr {
  
     }
 }
+@media(max-width:375px){
+  .login_signup .nav-link {
+    display: inline;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    
+  }
+  .logo img {
+    width: 90px;
+    height: 60px;
+  }
 
+}
