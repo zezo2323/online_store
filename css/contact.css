@@ -74,7 +74,7 @@ nav {
 .login_signup .nav-link {
   color: #fff;
   padding: 10px 20px;
-  background-color: #aeae66;
+  background-color: #b0aaaa;
   margin-left: 10px;
   border: 4px solid #fff;
   border-radius: 5px;
@@ -83,7 +83,7 @@ nav {
 }
 
 .login_signup .nav-link:hover {
-  background-color:#686b00 ;
+  background-color:#b0aaaa ;
 }
 .bars {
   display: none;
@@ -132,7 +132,7 @@ nav {
 
 .content .left-side .details i {
   font-size: 30px;
-  color: #aeae66;
+  color: #b0aaaa;
   margin-bottom: 10px;
 }
 
@@ -156,7 +156,7 @@ nav {
 .content .right-side .topic-text {
   font-size: 23px;
   font-weight: 600;
-  color: #aeae66;
+  color: #b0aaaa;
 }
 
 .right-side .input-box {
@@ -189,7 +189,7 @@ nav {
 .right-side .button input[type="button"] {
   color: #fff;
   font-size: 18px;
-  background: #aeae66;
+  background: #b0aaaa;
   outline: none;
   border-radius: 6px;
   border: none;
@@ -199,7 +199,7 @@ nav {
 }
 
 .button input[type="button"]:hover {
-  background: #686b00;
+  background: #b0aaaa;
 }
 
 @media (max-width: 950px) {
